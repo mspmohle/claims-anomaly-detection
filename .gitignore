@@ -1,0 +1,62 @@
+# --- Python and Jupyter ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.DS_Store
+.env
+.venv
+venv/
+env/
+ENV/
+*.egg-info/
+*.egg
+
+# --- Virtual Environments ---
+*.env
+.env/
+venv/
+venv*/ 
+*.venv
+
+# --- Data & Outputs ---
+data/raw/*
+data/processed/*
+!data/raw/.keep
+!data/processed/.keep
+
+figures/*
+!figures/.keep
+
+# --- Logs & Temporary Files ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS-specific ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Cache ---
+.cache/
+__pycache__/
+.ipython/
+
+# --- Miscellaneous ---
+*.zip
+*.tar.gz
+*.h5
+*.pkl
+*.csv~
+*.json~
+*.xlsx~
