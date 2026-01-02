@@ -109,6 +109,7 @@ claims-anomaly-detection/
 ├── requirements.txt         <- Python dependencies
 ├── .gitignore               <- Environment and data exclusions
 └── README.md                <- Project documentation
+```
 8. Environment Setup
 Create environment
 conda create -n claims python=3.11 -y
